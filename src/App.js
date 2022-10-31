@@ -24,7 +24,6 @@ function FallbackComponent() {
 }
 
 class App extends Component {
-  // Prevent page reload, clear input, set URL and push history on submit
   handleSubmit = (e, history, searchInput) => {
     e.preventDefault();
     e.currentTarget.reset();
